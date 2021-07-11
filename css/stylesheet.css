@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: darkslategrey;
+  text-align: center;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  background-color: dimgray;
+  height: 90vh;
+}
+
+h1 {
+  font-size: 32px;
+  color: #0e2f08;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  font-size: 28px;
+  margin-bottom: 48px;
+}
+
+button {
+  font-size: 42px;
+  padding: 20px;
+  background-color: thistle;
+  border-radius: 12px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+}
+
+button:hover {
+  background-color: teal;
+  color: yellowgreen;
+  cursor: pointer;
+}
+
+button:active {
+  color: purple;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  height: 130px;
+}
+
+li {
+  width: 20px;
+  background-color: fuchsia;
+  margin: 20px;
+  height: 20px;
+}
+
+footer {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  font-size: 20px;
+}
